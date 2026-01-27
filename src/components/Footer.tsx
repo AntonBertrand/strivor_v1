@@ -37,7 +37,7 @@ export function Footer() {
 
           {/* Social Media Icons - Right */}
           <div className="flex items-center gap-4">
-            <a
+{/*             <a
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -45,7 +45,7 @@ export function Footer() {
               aria-label="Facebook"
             >
               <Facebook className="h-6 w-6" />
-            </a>
+            </a> */}
             <a
               href="https://instagram.com"
               target="_blank"
@@ -55,7 +55,7 @@ export function Footer() {
             >
               <Instagram className="h-6 w-6" />
             </a>
-            <a
+{/*             <a
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -72,7 +72,7 @@ export function Footer() {
               aria-label="LinkedIn"
             >
               <Linkedin className="h-6 w-6" />
-            </a>
+            </a> */}
           </div>
         </div>
 

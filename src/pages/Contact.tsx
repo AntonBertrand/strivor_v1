@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Mail, Instagram, MapPin, Send } from "lucide-react";
 import { PageHero } from "../components/PageHero";
 
 export default function Contact() {
@@ -86,44 +86,30 @@ export default function Contact() {
                   <div className="text-center lg:text-left">
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
                     <a
-                      href="mailto:info@strivorsports.com"
+                      href="mailto:strivorsports.com"
                       className="text-gray-600 hover:text-primary transition-colors break-all"
                     >
-                      info@strivorsports.com
+                      Strivor.sports@gmail.com
                     </a>
                   </div>
                 </div>
 
                 <div className="flex flex-col items-center lg:flex-row lg:items-start gap-4">
                   <div className="flex-shrink-0 w-14 h-14 lg:w-12 lg:h-12 bg-primary rounded-lg flex items-center justify-center">
-                    <Phone className="h-7 w-7 lg:h-6 lg:w-6 text-white" />
+                    <Instagram className="h-7 w-7 lg:h-6 lg:w-6 text-white" />
                   </div>
                   <div className="text-center lg:text-left">
-                    <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
+                    <h3 className="font-semibold text-gray-900 mb-1">Instagram</h3>
                     <a
-                      href="tel:+441234567890"
+                      href="https://www.instagram.com/strivor_sports_academy"
                       className="text-gray-600 hover:text-primary transition-colors"
                     >
-                      +44 123 456 7890
+                      @strivor_sports_academy
                     </a>
                   </div>
                 </div>
 
-                <div className="flex flex-col items-center lg:flex-row lg:items-start gap-4">
-                  <div className="flex-shrink-0 w-14 h-14 lg:w-12 lg:h-12 bg-primary rounded-lg flex items-center justify-center">
-                    <MapPin className="h-7 w-7 lg:h-6 lg:w-6 text-white" />
-                  </div>
-                  <div className="text-center lg:text-left">
-                    <h3 className="font-semibold text-gray-900 mb-1">
-                      Address
-                    </h3>
-                    <p className="text-gray-600">
-                      Oxfordshire & West Berkshire
-                      <br />
-                      United Kingdom
-                    </p>
-                  </div>
-                </div>
+
               </div>
             </div>
 
