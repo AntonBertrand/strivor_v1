@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import ABOUT_IMAGE from "../assets/about-img.jpg";
 
 export function About() {
   return (
@@ -44,7 +45,7 @@ export function About() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://plus.unsplash.com/premium_photo-1685055940547-70f23a76f5a7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src={ABOUT_IMAGE}
                 alt="Football training legacy"
                 className="w-full h-[500px] object-cover"
               />
