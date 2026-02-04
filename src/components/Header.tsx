@@ -88,15 +88,8 @@ export function Header() {
               className="px-4 py-2 text-white hover:bg-gray-800 rounded"
               onClick={() => setIsMenuOpen(false)}
             >
-              Programs
+              Services
             </Link>
-            <a
-              href="#blog"
-              className="px-4 py-2 text-white hover:bg-gray-800 rounded"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Blog
-            </a>
             <Link
               to="/contact"
               className="px-4 py-2 text-white hover:bg-gray-800 rounded"
@@ -104,13 +97,6 @@ export function Header() {
             >
               Contact
             </Link>
-            <a
-              href="#testimonial"
-              className="px-4 py-2 text-white hover:bg-gray-800 rounded"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Testimonial
-            </a>
             <div className="pt-4 px-4">
               <Link
                 to="/contact"
